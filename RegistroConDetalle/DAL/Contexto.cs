@@ -11,11 +11,11 @@ namespace RegistroConDetalle.DAL
     public class Contexto : DbContext
     {
         public DbSet<Personas> Personas { get; set; }
+
         public DbSet<Grupos> Grupos { get; set; }
 
         public Contexto() : base("ConStr")
         {
-
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

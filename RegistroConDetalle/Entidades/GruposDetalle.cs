@@ -25,7 +25,6 @@ namespace RegistroConDetalle.Entidades
             this.Id = 0;
             this.GruposId = 0;
         }
-
         /// <summary>
         /// Este constructor es opcional solo lo agrego por comodidad
         /// </summary> 

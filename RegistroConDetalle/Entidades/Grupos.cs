@@ -12,14 +12,14 @@ namespace RegistroConDetalle.Entidades
     {
         [Key]
         public int GrupoId { get; set; }
-        public DateTime Fecha { get; set; }
         public String Descripcion { get; set; }
         public int Cantidad { get; set; }
         public int Grupo { get; set; }
         public int Integrantes { get; set; }
+        public DateTime Fecha { get; set; }
 
-        [StringLength(100)]
-        public string Comments { get; set; }
+     //   [StringLength(100)]
+     //   public string Comments { get; set; }
 
         public virtual ICollection<GruposDetalle> Detalle { get; set; }
 
